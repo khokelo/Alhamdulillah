@@ -4,8 +4,6 @@
  */
 package aplikasi1;
 import javax.swing.JOptionPane;
-import java.util.Scanner;
-
 /**
  *
  * @author U S E R
@@ -34,11 +32,11 @@ public class reg extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         name = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        _repassword = new javax.swing.JPasswordField();
+        repassword = new javax.swing.JPasswordField();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        _password = new javax.swing.JPasswordField();
+        password = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
@@ -60,7 +58,7 @@ public class reg extends javax.swing.JFrame {
 
         jLabel2.setText("Username");
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 60, -1));
-        jPanel2.add(_repassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 230, -1));
+        jPanel2.add(repassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 230, -1));
 
         jLabel3.setText("Password");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 60, -1));
@@ -71,7 +69,7 @@ public class reg extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel6.setText("Create new account !");
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 170, -1));
-        jPanel2.add(_password, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 230, -1));
+        jPanel2.add(password, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 230, -1));
 
         jButton1.setText("Register");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -102,20 +100,19 @@ public class reg extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        Scanner in = new Scanner(System.in);
-        String password = in.next();
-        String repassword = in.next();
-        if (password == repassword) {
+        String regpassword = new String (password.getText());
+        String conpassword = new String (repassword.getText());
+        if (regpassword.equals(conpassword)) {
         loginreg r = new loginreg();
         r.setLocationRelativeTo(null);
         r.setVisible(true);
         this.setVisible(false);}
-        else {
+        else if (!regpassword.equals(conpassword)){
         JOptionPane.showMessageDialog(rootPane, "Password Tidak Sinkron", 
                 "Error",  JOptionPane.CLOSED_OPTION);
         name.setText("");
-        _password.setText("");
-        _repassword.setText("");}
+        password.setText("");
+        repassword.setText("");}
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void nameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameActionPerformed
@@ -159,8 +156,6 @@ public class reg extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JPasswordField _password;
-    public javax.swing.JPasswordField _repassword;
     public javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     public javax.swing.JLabel jLabel2;
@@ -170,5 +165,7 @@ public class reg extends javax.swing.JFrame {
     public javax.swing.JPanel jPanel1;
     public javax.swing.JPanel jPanel2;
     public javax.swing.JTextField name;
+    public javax.swing.JPasswordField password;
+    public javax.swing.JPasswordField repassword;
     // End of variables declaration//GEN-END:variables
 }

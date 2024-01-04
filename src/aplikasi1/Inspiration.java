@@ -45,6 +45,7 @@ public class Inspiration extends javax.swing.JFrame {
         jTextArea7 = new javax.swing.JTextArea();
         jLabel14 = new javax.swing.JLabel();
         jTextArea8 = new javax.swing.JTextArea();
+        jLabel20 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 205, 232));
@@ -59,7 +60,7 @@ public class Inspiration extends javax.swing.JFrame {
                 jLabel1MouseClicked(evt);
             }
         });
-        jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 71, -1, 120));
+        jPanel3.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, -1, 120));
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel4.setText("Gedung");
@@ -68,12 +69,12 @@ public class Inspiration extends javax.swing.JFrame {
                 jLabel4MouseClicked(evt);
             }
         });
-        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 40, -1, -1));
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, -1, -1));
 
         jLabel7.setBackground(new java.awt.Color(255, 205, 232));
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setText("Keuntungan");
-        jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 209, -1, -1));
+        jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, -1, -1));
 
         jTextArea3.setBackground(new java.awt.Color(255, 205, 232));
         jTextArea3.setColumns(20);
@@ -81,11 +82,11 @@ public class Inspiration extends javax.swing.JFrame {
         jTextArea3.setRows(5);
         jTextArea3.setText("- Fleksibilitas dalam kapasitas dan \n   penyediaan fasilitas.\n- Penyediaan makanan dan minuman \n   yang lebih mudah.\n- Fasilitas parkir yang memadai.\n- Cuaca tidak menjadi kendala.\n\n\n");
         jTextArea3.setBorder(null);
-        jPanel3.add(jTextArea3, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 232, 218, 116));
+        jPanel3.add(jTextArea3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 218, 116));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel10.setText("Kerugian");
-        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 355, -1, -1));
+        jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
 
         jTextArea4.setBackground(new java.awt.Color(255, 205, 232));
         jTextArea4.setColumns(20);
@@ -94,7 +95,7 @@ public class Inspiration extends javax.swing.JFrame {
         jTextArea4.setText("- Cuaca menjadi kendala.\n- Bisa menghalangi jalan umum yang          biasa digunakan oleh orang lain.\n\n\n");
         jTextArea4.setWrapStyleWord(true);
         jTextArea4.setBorder(null);
-        jPanel3.add(jTextArea4, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 390, 218, 116));
+        jPanel3.add(jTextArea4, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 430, 218, 60));
 
         jButton1.setBackground(new java.awt.Color(255, 205, 232));
         jButton1.setFont(new java.awt.Font("212 Queenie Sans", 0, 36)); // NOI18N
@@ -115,7 +116,7 @@ public class Inspiration extends javax.swing.JFrame {
                 jLabel5MouseClicked(evt);
             }
         });
-        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, -1, -1));
+        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/download (3).jpeg"))); // NOI18N
@@ -124,12 +125,12 @@ public class Inspiration extends javax.swing.JFrame {
                 jLabel2MouseClicked(evt);
             }
         });
-        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 70, -1, 120));
+        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 200, 120));
 
         jLabel8.setBackground(new java.awt.Color(255, 205, 232));
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setText("Keuntungan");
-        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 209, -1, -1));
+        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 250, -1, -1));
 
         jTextArea5.setBackground(new java.awt.Color(255, 205, 232));
         jTextArea5.setColumns(20);
@@ -138,11 +139,11 @@ public class Inspiration extends javax.swing.JFrame {
         jTextArea5.setText("- Pilihan lokasi yang lebih variatif.\n- Memiliki suasana yang lebih romantis.\n- Budget lebih murah.\n- Penyediaan makanan dan minuman          lebih mudah.\n- Cuaca tidak menjadi kendala.");
         jTextArea5.setWrapStyleWord(true);
         jTextArea5.setBorder(null);
-        jPanel3.add(jTextArea5, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 230, 218, 116));
+        jPanel3.add(jTextArea5, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 270, 218, 116));
 
         jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel11.setText("Kerugian");
-        jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 360, -1, -1));
+        jPanel3.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 400, -1, -1));
 
         jTextArea6.setBackground(new java.awt.Color(255, 205, 232));
         jTextArea6.setColumns(20);
@@ -150,7 +151,7 @@ public class Inspiration extends javax.swing.JFrame {
         jTextArea6.setRows(5);
         jTextArea6.setText("- Biaya yang lebih mahal.\n- Kurangnya ruang terbuka.\n- Keterbatasan dalam dekorasi.\n- Waktu penyewaan yang terbatas.\n\n");
         jTextArea6.setBorder(null);
-        jPanel3.add(jTextArea6, new org.netbeans.lib.awtextra.AbsoluteConstraints(27, 388, 218, 116));
+        jPanel3.add(jTextArea6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 420, 218, 80));
 
         jLabel6.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel6.setText("Tenda");
@@ -159,7 +160,7 @@ public class Inspiration extends javax.swing.JFrame {
                 jLabel6MouseClicked(evt);
             }
         });
-        jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 40, -1, -1));
+        jPanel3.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 80, -1, -1));
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/download (5).jpeg"))); // NOI18N
@@ -168,12 +169,12 @@ public class Inspiration extends javax.swing.JFrame {
                 jLabel3MouseClicked(evt);
             }
         });
-        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(572, 71, -1, 120));
+        jPanel3.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 110, -1, 120));
 
         jLabel9.setBackground(new java.awt.Color(255, 205, 232));
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setText("Keuntungan");
-        jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 210, -1, -1));
+        jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 250, -1, -1));
 
         jTextArea7.setBackground(new java.awt.Color(255, 205, 232));
         jTextArea7.setColumns(20);
@@ -182,11 +183,11 @@ public class Inspiration extends javax.swing.JFrame {
         jTextArea7.setText("- Pilihan lokasi yang lebih variatif.\n- Memiliki suasana yang lebih romantis.\n- Budget lebih murah.");
         jTextArea7.setWrapStyleWord(true);
         jTextArea7.setBorder(null);
-        jPanel3.add(jTextArea7, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 232, 218, 116));
+        jPanel3.add(jTextArea7, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 270, 218, 116));
 
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel14.setText("Kerugian");
-        jPanel3.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 355, -1, -1));
+        jPanel3.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 390, -1, -1));
 
         jTextArea8.setBackground(new java.awt.Color(255, 205, 232));
         jTextArea8.setColumns(20);
@@ -195,7 +196,11 @@ public class Inspiration extends javax.swing.JFrame {
         jTextArea8.setText("- Cuaca menjadi kendala.\n- Bisa menghalangi jalan umum yang          biasa digunakan oleh orang lain.\n\n\n");
         jTextArea8.setWrapStyleWord(true);
         jTextArea8.setBorder(null);
-        jPanel3.add(jTextArea8, new org.netbeans.lib.awtextra.AbsoluteConstraints(316, 389, 218, 116));
+        jPanel3.add(jTextArea8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 430, 218, 70));
+
+        jLabel20.setFont(new java.awt.Font("Traditional Arabic", 0, 24)); // NOI18N
+        jLabel20.setText("Inspirations");
+        jPanel3.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -310,6 +315,7 @@ public class Inspiration extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
